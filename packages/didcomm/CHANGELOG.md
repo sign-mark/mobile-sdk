@@ -1,5 +1,23 @@
 # @credebl/ssi-mobile-didcomm
 
+## 2.2.0
+
+### Minor Changes
+
+- 83e6e96: update mdoc library
+- 22a3c8a: upgrade credo-ts to 0.7.0
+
+  BREAKING CHANGE: All `@credo-ts/*` packages have been upgraded from `0.6.2` to `0.7.0`.
+
+  - `Buffer` has been removed from the `@credebl/ssi-mobile-didcomm` exports - import it from `@credo-ts/core` directly instead
+  - Apps must add `@credo-ts/*` package resolutions pointing to `0.7.0` in their root `package.json` to ensure all credo-ts packages resolve to the same versions
+
+### Patch Changes
+
+- Updated dependencies [83e6e96]
+- Updated dependencies [22a3c8a]
+  - @credebl/ssi-mobile-core@2.2.0
+
 ## 2.1.1
 
 ### Patch Changes
